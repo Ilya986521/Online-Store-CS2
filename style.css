@@ -1,0 +1,40 @@
+
+header{
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: #412F23;
+    color: #FEC27C;
+    
+}
+main{
+    text-align: end;
+}
+main .menu{
+    display: flex;
+
+}
+
+main .leftmenu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px 0px 0px 130px;
+}
+main .rightmenu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px 130px 0px 0px;  
+    
+}
+main .imgmenu{
+    height: 350px;
+    width: 350px;
+    
+    
+
+}
