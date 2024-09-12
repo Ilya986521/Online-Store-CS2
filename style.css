@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 header{
     text-align: center;
     
@@ -6,35 +9,47 @@ header{
     font-style: italic;
     background-color: #412F23;
     color: #FEC27C;
-    
+
 }
+
 main{
     text-align: end;
-}
-main .menu{
-    display: flex;
+    background: linear-gradient(#FEC27C, #412F23);
 
 }
 
-main .leftmenu{
+ .menu{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 10px 0px 0px 130px;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
-main .rightmenu{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 10px 130px 0px 0px;  
-    
-}
-main .imgmenu{
-    height: 350px;
-    width: 350px;
-    
+
+ .leftmenu{
+    padding: 50px 0px 0px 0px;
+    line-height: 80px;
     
 
+}
+ .rightmenu{
+    padding: 50px 0px 0px 0px;
+    line-height: 80px;
+
+    
+}
+
+ .imgmenu{
+    height: 550px;
+    width:  550px;
+    align-items: center;
+    padding: 50px;
+    
+}
+.imgmenu1{
+    width: 550px;
+}
+.center-text{
+    width: 100px;
+    margin: auto;
+    text-align: center;
 }
