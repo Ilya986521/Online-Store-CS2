@@ -9,6 +9,7 @@ header{
     font-style: italic;
     background-color: #412F23;
     color: #FEC27C;
+    padding: 10px;
 
 }
 
@@ -27,13 +28,13 @@ main{
 
  .leftmenu{
     padding: 50px 0px 0px 0px;
-    line-height: 80px;
+    line-height: 40px;
     
 
 }
  .rightmenu{
     padding: 50px 0px 0px 0px;
-    line-height: 80px;
+    line-height: 40px;
 
     
 }
@@ -47,9 +48,41 @@ main{
 }
 .imgmenu1{
     width: 550px;
+    outline: 20px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+    
+
 }
-.center-text{
+.menu__item{
+    color: #FEC27C;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align-last: center;
+    border-radius: 15px;
+    background-color: #412F23;
+    margin: 35px;
+    height: 55px;
+    width: 170px;
+}
+
+.menupng{
     width: 100px;
-    margin: auto;
-    text-align: center;
+    padding: 10px;
+    outline: 10px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+    
+
+
+}
+
+.skinsmenu{
+    font-size: 13px;
+    color: #FEC27C;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+
 }
