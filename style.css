@@ -14,15 +14,15 @@ header{
 }
 
 main{
-    text-align: end;
     background: linear-gradient(#FEC27C, #412F23);
-
+    padding: 30px;
 }
 
  .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 
 }
 
@@ -40,20 +40,20 @@ main{
 }
 
  .imgmenu{
-    height: 550px;
     width:  550px;
     align-items: center;
     padding: 50px;
     
 }
+
 .imgmenu1{
     width: 550px;
     outline: 20px solid;
     outline-color: #412F23;
     border-radius: 15px;
-    
 
 }
+
 .menu__item{
     color: #FEC27C;
     font-size: 40px;
@@ -65,28 +65,67 @@ main{
     margin: 35px;
     height: 55px;
     width: 170px;
+
 }
 
 .menupng{
     width: 250px;
     padding: 10px;
-    outline: 20px solid;
-    outline-color: #412F23;
-    border-radius: 15px;
     background: linear-gradient(#DDA96C, #775B3A) ;
-    
-
+    border-radius: 20px;
 
 }
 
 .skinsmenu{
-    font-size: 16px;
-    text-align: center;
+    display: flex;
+    flex-direction: row ;
+    gap: 165px;
     color: #FEC27C;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    outline: 20px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+    height: 180px;
+    background-color: #412F23;
+    
+}
+.skinsmenu1{
+    
+    
+}
 
-    outline: 10px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 50px 1400px 100px 0px;
-    margin: -200px;
+.skinsmenu2{
+    outline: 20px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+    
+
+}
+
+.skinsmenu3{
+    outline: 20px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+
+
+}
+
+.skinsmenu4{
+    outline: 20px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+
+}
+.skinsmenu_word{
+    margin-top: 10px;
+    padding: 7px;    
+    border-radius: 25px;
+    background: linear-gradient(#DDA96C, #775B3A);
+    color: black;
+    font-size: 20px;
+    
 }
