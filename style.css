@@ -135,28 +135,97 @@ main{
 
 .cases__caps{
     display: flex;
-    flex-direction: column;
+    flex-direction: row ;
+    color: #FEC27C;
+    width: 270px;
+    text-align: center;
 
 }
 
 .case__left{
-    background-color: #FEC27C;
-    border-radius: 35px;
-    width: 280px;
     outline: 20px solid;
     outline-color: #412F23;
-    border-radius: 15px; 
-    
+    border-radius: 15px;
+    background-color: #412F23;
+    margin-right: 80px;
 
 }
 
 .cases{
-
-
+    height: 200px;
+    padding: 10px;
+    background: linear-gradient(#DDA96C, #775B3A) ;
+    border-radius: 20px;
+    width: 280px;
+    
 }
 
 .casetext{
-    font-size: 15px;
+    margin-top: 10px;
+    padding: 7px;    
+    border-radius: 25px;
+    background: linear-gradient(#DDA96C, #775B3A);
+    color: black;
+    font-size: 20px;
     text-align: center;
-    color: #DDA96C;
+    
 }
+
+table{
+    width: 37%;
+    height: 700px;
+    margin-left: 20px;
+    
+}
+
+.capsule{
+    height: 200px;
+    padding: 10px;
+    background: linear-gradient(#DDA96C, #775B3A) ;
+    border-radius: 20px;
+    width: 280px;
+}
+
+.caps__center{
+    width: 300px;
+    outline: 20px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+    background-color: #412F23;
+    height: 270px;
+    margin: auto;
+    margin-right: -40px;
+    margin-left: -20px;
+    
+}
+
+.case__right{
+    outline: 20px solid;
+    outline-color: #412F23;
+    border-radius: 15px;
+    background-color: #412F23;
+    margin-left: 80px;
+
+}
+
+.title__music{
+    color: #DDA96C;
+    text-align: center;
+    background: #412F23;
+    border-radius: 15px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title__gohome{
+    color: #DDA96C;
+    text-align: center;
+    background: #412F23;
+    border-radius: 15px;
+    width: 150px;
+    margin-top:  10px;
+
+}
+
+
